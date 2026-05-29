@@ -1,2 +1,5 @@
-# KSC2-
-KSC2++: Enhanced Kazakh Speech Corpus with LLM-Based Transcription Restoration
+## KSC2++: Enhanced Kazakh Speech Corpus with LLM-Based Transcription Restoration
+#### Abstract
+Automatic speech recognition (ASR) systems based on large language models (LLMs) have recently achieved strong performance across diverse speech recognition tasks. However, existing LLM-based ASR systems have been primarily developed for high-resource languages, while existing Kazakh ASR corpora provide only normalized transcriptions without punctuation and capitalization. To address this limitation, we introduce KSC2++, an unnormalized extension of the KSC2 corpus containing 1,151 hours of speech and 627,382 utterances with restored punctuation, capitalization, and named entities using LLM-based transcription unnormalization. We fine-tune Qwen3-ASR models on KSC2++ and demonstrate substantial improvements in punctuation-aware and named-entity-aware ASR under realistic evaluation settings. Experimental results show state-of-the-art performance on multiple Kazakh ASR benchmarks, including KSC2, KSD, and KazNERD. Finally, we publicly release the KSC2++ corpus, pretrained models, and source code to support reproducible research in low-resource LLM-based ASR.
+
+#### The dataset, source code, and pretrained models will released soon :)
